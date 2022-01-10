@@ -1,0 +1,370 @@
+input{
+    outline: none;
+    box-shadow:none !important;
+}
+
+/* Nav Section */
+.rcl{
+    background-color: #23A8F2;
+}
+.rcl a{
+    color: #fff;
+}
+.rcl:hover{
+    background-color: #004d7a;
+    transition: 0.3s ease;
+   
+}
+.rcl a:hover{
+    color: #FFE7B8;
+    transition: 0.3s ease;
+}
+/* Nav section End */
+/* Teacher and Student Login section start */
+.tlf{
+    margin:6% 0 0 6%;
+    width: 40%;
+}
+.slf{
+    margin:6% 6% 0 0;
+    width: 40%;
+}
+.techerloginform, .studentloginform, .techerregform, .studentregform, input[type=text], input[type=password],input[type=date] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+.tl_btn{
+    background: #008793;
+    transition: 0.3s linear;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+.tl_btn a{
+    text-decoration: none;
+    color: #fff;
+  } 
+.tl_btn:hover{
+    background: #00bf72;
+  }
+.sub_sec{
+    background-color: #FFE7B8;
+}  
+span.fpsw {
+    float: right;
+  }
+.fpsw a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #004d7a;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 2px solid #004d7a;
+}
+.fpsw a:hover{
+    background-color:#004d7a;
+    color: #fff;
+    transition: 0.3s ease;
+}  
+/* Teacher and Student Login section end */
+
+/* Contact Us Page Start */
+.contact-us{
+    background-image: linear-gradient(to left, #051937, #004d7a, #008793, #00bf72);
+    margin: 5px 0px 0px 160px;
+    width: 75%;
+    box-shadow: 3px 3px 10px #000;
+}
+.contact-us .form-control{
+    border-radius:1rem;
+}
+.contact-us form{
+    padding: 6%;
+}
+.contact-us form .row{
+    margin-bottom: -8%;
+}
+.contact-us h2{
+    padding: 8px;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    width: 90%;
+    background-color: #e0dfdf73;
+    color: #0f0f10d1;
+}
+.contact-us .btnContact {
+    display: block;
+    margin: 3% auto;
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1%;
+    background: #dc3545;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+}
+.contact-us .btnContact:hover{
+    background: #101416be;
+    transition: 0.3s ease;
+  }
+/* Contact Us Page End */
+
+/* Teacher Profile Setup Page Start */
+.tpsbody{
+    background: #00bf72;
+    box-shadow: 3px 3px 10px #000;
+}
+.tpsbody h2{
+    margin: 10px 0;
+    background-color: #e0dfdf73;
+    color: #0f0f10d1;
+}
+.tpsbody label{
+    color: #F7F633;
+    font-size: 20px;
+}
+.tpsbtn{
+    background: #f5093cbe;
+    margin: 30px 0;
+    width: 90%;
+    transition: 0.3s ease;
+}
+.tpsbtn:hover{
+    border: 1px solid #000;
+    background: #004D7A;
+    transition: 0.3s ease;
+}
+.tpsbtn a{
+    text-decoration: none;
+    color: #000;
+    padding:5px;
+}
+.tpsbtn:hover a{
+    color: #fff;
+}
+
+/* Teacher Profile Setup Page End */
+
+/* Student Profile Page Start */
+.studentprofilebody{
+    width: 99.8%;
+    background: #00bf72;
+    box-shadow: 3px 3px 10px #000;
+}
+.studentprofilebody h2{
+    color: #F7F633;
+}
+.studentprofilebody label{
+    color: #F7F633;
+    font-size: 20px;
+}
+.studentokbtn{
+    width: 48%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.studenteditbtn{
+    margin-left: 20px;
+    width: 48%;
+}
+
+/* Student Profile Page End */
+
+
+
+
+
+/* Index page start */
+.main_nav{
+    background-color: #00496A;
+}
+.main_nav li{
+    padding: 5px 8px;
+}
+.main_nav a{
+    color: #fff;
+}
+.main_nav li:hover{
+    background-color: #ff1d58;
+    transition: 0.2s ease;
+}
+.main_content_filder {
+    padding: 10px 0px 10px 30px;
+}
+.mcf_sel{
+    width: 32%;
+    margin: 0 5px;
+}
+.fld_btn{
+    color: #fff;
+    background-color: #051937;
+}
+.fld_btn:hover{
+    color: #00bf72
+} 
+.card_sel{
+    width: 90%;
+    margin:10px 0px 10px 20px;
+}
+.nroll_btn{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.nroll_btn:hover{
+    color: #F7BE12;
+}
+/* Index page end */
+
+/* Class Page Start */
+.siderbarMenu{
+    min-height: 500px;
+    height: auto;
+}
+.siderbarMenu a{
+    color: #fff;
+    font-weight: 500;
+    border-bottom: 2px solid #f0f0f0;
+}
+.siderbarMenu a:hover{
+    background-color: #ff1d58;
+    transition: 0.2s ease;
+}
+
+/* Class Page End */
+
+/* Assignment Details Page start */
+.ass-p{
+    height: 50px;
+    padding: 10px;
+}
+.ass_right{
+    margin-left: 10px;
+    width: 30%;
+    min-height: 450px;
+    padding: 10px;
+}
+.form-file-text{
+    
+}
+.rg_btn{
+    width: 96%;
+}
+/* Assignment Details Page End */
+
+/* Student Video Files Page Start */
+.stembedvideo{
+    margin: 0 auto;
+    width: 50%;
+    min-height: 140px;
+    height: auto;
+    display: inline-block;
+}
+.stvideo{
+    width: 50%;
+    height: auto;
+}
+/* Student Video Files Page End */
+
+/* Exam Page Start */
+.stexam_btn{
+    margin: 10px auto;
+    width: 90%;
+}
+.stexam_btn:hover{
+    background-color: #ff1d58;
+    transition: 0.2s ease;
+}
+/* Exam Page End */
+
+/* Crate Assignment Page Start */
+.createass_right{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    min-height: 460px;
+    padding: 10px;
+}
+.createassment_btn{
+    margin: 20px auto;
+    width: 90%;
+}
+.previous_assignment{
+    margin: 10px 0 10px 3px;
+}
+.submitted_assignment{
+    margin: 10px 0 10px 3px;
+}
+/* Crate Assignment Page End */
+
+/* Uploaded Files Page Start */
+.uploadfiles_left, .createassment, input[type=text], input[type=date]{
+    padding: 5px 10px;
+}
+.uploadfiles_right{
+    margin-left: 10px;
+    width: 30%;
+    min-height: 460px;
+    padding: 10px;
+}
+/* Uploaded Files Page End */
+
+/* Make Exam Page Start */
+.m_sel, .s_sel{
+    width: 32%;
+    margin-left: 10px;
+}
+.question_save_btn{
+    width: 97.3%;
+    margin: 0 auto;
+}
+/* Make Exam Page End */
+
+/* Create Announcement Page Start */
+.modelcreateannwidth {
+    max-width: 800px;
+}
+.txareamodalheight{
+    min-height: 260px;
+    height: auto;
+}
+/* Create Announcement Page End */
+
+/* Archive Video Page Star */
+.archivevideoframe{
+    width: 450px;
+    min-height: 250px;
+}
+.vss{
+    width: 32.5%;
+    margin: 0 auto;
+    padding: 8px;
+    box-shadow: 1px 1px 1px #000;
+}
+/* Archive Video Page End */
+
+/* Resources Page Start */
+.uploadedfiles_filder{
+    width: 99.7%;
+    padding: 10px 0px 10px 30px;
+}
+.upfdate input[type=date] {
+    margin: 0px 0px;
+}
+/* Resources Page End*/
